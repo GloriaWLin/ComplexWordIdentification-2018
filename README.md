@@ -4,7 +4,7 @@ This work presents two systems for complex word identification using datasets fr
 
 ### Implementation
 
-Use execute.py or execute_baseline.py to call the dataset reader (dataset.py), the result evaluator (scorer.py) and the relevant systems (baseline_<algorithm name>.py or improved_<algorithm name>.py). Before implementing the codes, make sure the relevant datasets are included under a subfolder named "datasets".
+Use execute.py or execute_baseline.py to call the dataset reader (dataset.py), the result evaluator (scorer.py) and the relevant systems (baseline_{algorithm name}.py or improved_{algorithm name}.py). Before implementing the codes, make sure the relevant datasets are included under a subfolder named "datasets".
 
 All codes are compatible with Python 3. Additional package, Pyphen, is required to be installed.
 
